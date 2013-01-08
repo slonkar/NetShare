@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2904D71D14F82FF9000332CF /* SocksProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904D71A14F82FF9000332CF /* SocksProxy.m */; };
+		2904D71E14F82FF9000332CF /* UIDevice_Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904D71C14F82FF9000332CF /* UIDevice_Extended.m */; };
+		29268509150ED57100801D9F /* blueWifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 29268506150ED57100801D9F /* blueWifi.png */; };
+		2926850A150ED57100801D9F /* greenWifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 29268507150ED57100801D9F /* greenWifi.png */; };
+		2926850E150EE98700801D9F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2926850C150EE98700801D9F /* Icon.png */; };
+		2926850F150EE98700801D9F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2926850D150EE98700801D9F /* Icon@2x.png */; };
+		296C041F150D5C640037CB2D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296C041E150D5C640037CB2D /* SystemConfiguration.framework */; };
+		29AEF1A214F6DA0500EB515C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AEF1A114F6DA0500EB515C /* UIKit.framework */; };
+		29AEF1A414F6DA0500EB515C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AEF1A314F6DA0500EB515C /* Foundation.framework */; };
+		29AEF1A614F6DA0500EB515C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AEF1A514F6DA0500EB515C /* CoreGraphics.framework */; };
+		29AEF1AC14F6DA0500EB515C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AEF1AA14F6DA0500EB515C /* InfoPlist.strings */; };
+		29AEF1AE14F6DA0500EB515C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AEF1AD14F6DA0500EB515C /* main.m */; };
+		29AEF1B214F6DA0500EB515C /* NetShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AEF1B114F6DA0500EB515C /* NetShareAppDelegate.m */; };
+		29AEF1B514F6DA0500EB515C /* NetShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AEF1B414F6DA0500EB515C /* NetShareViewController.m */; };
+		29AEF1B814F6DA0500EB515C /* NetShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AEF1B614F6DA0500EB515C /* NetShareViewController.xib */; };
+		29AFEE5314F72C2E00FC8CDD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AFEE5014F72C2E00FC8CDD /* Default.png */; };
+		29AFEE6014F7436D00FC8CDD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AFEE5F14F7436D00FC8CDD /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2904D71914F82FF9000332CF /* SocksProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocksProxy.h; sourceTree = "<group>"; };
+		2904D71A14F82FF9000332CF /* SocksProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocksProxy.m; sourceTree = "<group>"; };
+		2904D71B14F82FF9000332CF /* UIDevice_Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice_Extended.h; sourceTree = "<group>"; };
+		2904D71C14F82FF9000332CF /* UIDevice_Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDevice_Extended.m; sourceTree = "<group>"; };
+		29268506150ED57100801D9F /* blueWifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueWifi.png; sourceTree = SOURCE_ROOT; };
+		29268507150ED57100801D9F /* greenWifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenWifi.png; sourceTree = SOURCE_ROOT; };
+		2926850C150EE98700801D9F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		2926850D150EE98700801D9F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		296C041E150D5C640037CB2D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		29AEF19D14F6DA0500EB515C /* NetShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AEF1A114F6DA0500EB515C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29AEF1A314F6DA0500EB515C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29AEF1A514F6DA0500EB515C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29AEF1A914F6DA0500EB515C /* NetShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetShare-Info.plist"; sourceTree = "<group>"; };
+		29AEF1AB14F6DA0500EB515C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29AEF1AD14F6DA0500EB515C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29AEF1AF14F6DA0500EB515C /* NetShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetShare-Prefix.pch"; sourceTree = "<group>"; };
+		29AEF1B014F6DA0500EB515C /* NetShareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetShareAppDelegate.h; sourceTree = "<group>"; };
+		29AEF1B114F6DA0500EB515C /* NetShareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetShareAppDelegate.m; sourceTree = "<group>"; };
+		29AEF1B314F6DA0500EB515C /* NetShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetShareViewController.h; sourceTree = "<group>"; };
+		29AEF1B414F6DA0500EB515C /* NetShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetShareViewController.m; sourceTree = "<group>"; };
+		29AEF1B714F6DA0500EB515C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NetShareViewController.xib; sourceTree = "<group>"; };
+		29AFEE5014F72C2E00FC8CDD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		29AFEE5F14F7436D00FC8CDD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AEF19A14F6DA0500EB515C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296C041F150D5C640037CB2D /* SystemConfiguration.framework in Frameworks */,
+				29AFEE6014F7436D00FC8CDD /* CFNetwork.framework in Frameworks */,
+				29AEF1A214F6DA0500EB515C /* UIKit.framework in Frameworks */,
+				29AEF1A414F6DA0500EB515C /* Foundation.framework in Frameworks */,
+				29AEF1A614F6DA0500EB515C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AEF19214F6DA0400EB515C = {
+			isa = PBXGroup;
+			children = (
+				29AEF1A714F6DA0500EB515C /* NetShare */,
+				29AEF1A014F6DA0500EB515C /* Frameworks */,
+				29AEF19E14F6DA0500EB515C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AEF19E14F6DA0500EB515C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AEF19D14F6DA0500EB515C /* NetShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AEF1A014F6DA0500EB515C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				296C041E150D5C640037CB2D /* SystemConfiguration.framework */,
+				29AFEE5F14F7436D00FC8CDD /* CFNetwork.framework */,
+				29AEF1A114F6DA0500EB515C /* UIKit.framework */,
+				29AEF1A314F6DA0500EB515C /* Foundation.framework */,
+				29AEF1A514F6DA0500EB515C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29AEF1A714F6DA0500EB515C /* NetShare */ = {
+			isa = PBXGroup;
+			children = (
+				2926850C150EE98700801D9F /* Icon.png */,
+				2926850D150EE98700801D9F /* Icon@2x.png */,
+				29AEF1BF14F6DA2A00EB515C /* Resources */,
+				29AEF1BE14F6DA2000EB515C /* Classes */,
+				29AEF1A814F6DA0500EB515C /* Supporting Files */,
+			);
+			path = NetShare;
+			sourceTree = "<group>";
+		};
+		29AEF1A814F6DA0500EB515C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AEF1A914F6DA0500EB515C /* NetShare-Info.plist */,
+				29AEF1AA14F6DA0500EB515C /* InfoPlist.strings */,
+				29AEF1AD14F6DA0500EB515C /* main.m */,
+				29AEF1AF14F6DA0500EB515C /* NetShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29AEF1BE14F6DA2000EB515C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2904D71914F82FF9000332CF /* SocksProxy.h */,
+				2904D71A14F82FF9000332CF /* SocksProxy.m */,
+				2904D71B14F82FF9000332CF /* UIDevice_Extended.h */,
+				2904D71C14F82FF9000332CF /* UIDevice_Extended.m */,
+				29AEF1B014F6DA0500EB515C /* NetShareAppDelegate.h */,
+				29AEF1B114F6DA0500EB515C /* NetShareAppDelegate.m */,
+				29AEF1B314F6DA0500EB515C /* NetShareViewController.h */,
+				29AEF1B414F6DA0500EB515C /* NetShareViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		29AEF1BF14F6DA2A00EB515C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29AEF1B614F6DA0500EB515C /* NetShareViewController.xib */,
+				29AEF1C014F6DA3900EB515C /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29AEF1C014F6DA3900EB515C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				29268506150ED57100801D9F /* blueWifi.png */,
+				29268507150ED57100801D9F /* greenWifi.png */,
+				29AFEE5014F72C2E00FC8CDD /* Default.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AEF19C14F6DA0500EB515C /* NetShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AEF1BB14F6DA0500EB515C /* Build configuration list for PBXNativeTarget "NetShare" */;
+			buildPhases = (
+				29AEF19914F6DA0500EB515C /* Sources */,
+				29AEF19A14F6DA0500EB515C /* Frameworks */,
+				29AEF19B14F6DA0500EB515C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetShare;
+			productName = NetShare;
+			productReference = 29AEF19D14F6DA0500EB515C /* NetShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AEF19414F6DA0500EB515C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = IUPUI;
+			};
+			buildConfigurationList = 29AEF19714F6DA0500EB515C /* Build configuration list for PBXProject "NetShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29AEF19214F6DA0400EB515C;
+			productRefGroup = 29AEF19E14F6DA0500EB515C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AEF19C14F6DA0500EB515C /* NetShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AEF19B14F6DA0500EB515C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AEF1AC14F6DA0500EB515C /* InfoPlist.strings in Resources */,
+				29AEF1B814F6DA0500EB515C /* NetShareViewController.xib in Resources */,
+				29AFEE5314F72C2E00FC8CDD /* Default.png in Resources */,
+				29268509150ED57100801D9F /* blueWifi.png in Resources */,
+				2926850A150ED57100801D9F /* greenWifi.png in Resources */,
+				2926850E150EE98700801D9F /* Icon.png in Resources */,
+				2926850F150EE98700801D9F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AEF19914F6DA0500EB515C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AEF1AE14F6DA0500EB515C /* main.m in Sources */,
+				29AEF1B214F6DA0500EB515C /* NetShareAppDelegate.m in Sources */,
+				29AEF1B514F6DA0500EB515C /* NetShareViewController.m in Sources */,
+				2904D71D14F82FF9000332CF /* SocksProxy.m in Sources */,
+				2904D71E14F82FF9000332CF /* UIDevice_Extended.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29AEF1AA14F6DA0500EB515C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AEF1AB14F6DA0500EB515C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29AEF1B614F6DA0500EB515C /* NetShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AEF1B714F6DA0500EB515C /* en */,
+			);
+			name = NetShareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AEF1B914F6DA0500EB515C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29AEF1BA14F6DA0500EB515C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AEF1BC14F6DA0500EB515C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetShare/NetShare-Prefix.pch";
+				INFOPLIST_FILE = "NetShare/NetShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29AEF1BD14F6DA0500EB515C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetShare/NetShare-Prefix.pch";
+				INFOPLIST_FILE = "NetShare/NetShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AEF19714F6DA0500EB515C /* Build configuration list for PBXProject "NetShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AEF1B914F6DA0500EB515C /* Debug */,
+				29AEF1BA14F6DA0500EB515C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AEF1BB14F6DA0500EB515C /* Build configuration list for PBXNativeTarget "NetShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AEF1BC14F6DA0500EB515C /* Debug */,
+				29AEF1BD14F6DA0500EB515C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AEF19414F6DA0500EB515C /* Project object */;
+}
