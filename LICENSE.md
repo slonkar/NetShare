@@ -1,1 +1,0 @@
-NetShare License
